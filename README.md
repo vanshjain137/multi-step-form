@@ -39,7 +39,7 @@ project/
 │   │   └── index.js
 │   └── package.json
 │
-└── backend/               # Backend Node.js server
+└── server/                # Backend Node.js server
     ├── index.js
     ├── models/
     │   └── Submission.js
@@ -59,15 +59,15 @@ project/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/multi-step-form.git
+git clone https://github.com/vanshjain137/multi-step-form.git
 cd multi-step-form
 ```
 
 ### Backend Setup
 
 ```bash
-# Navigate to backend folder
-cd backend
+# Navigate to server folder
+cd server
 
 # Install dependencies
 npm install
@@ -113,7 +113,7 @@ Frontend will run on `http://localhost:3000`
 
 2. **Start the backend server** (Terminal 1):
    ```bash
-   cd backend
+   cd server
    node index.js
    ```
 
@@ -187,10 +187,6 @@ If you get an error about port 5000 being in use:
 - [ ] Add file upload support
 - [ ] Add email notifications
 
-## Screenshots
-
-*(Add screenshots of your application here)*
-
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
@@ -201,10 +197,12 @@ MIT
 
 ## Author
 
-Your Name - [Your GitHub Profile](https://github.com/YOUR-USERNAME)
+Vansh Jain - [GitHub Profile](https://github.com/vanshjain137)
 
 ## Acknowledgments
 
 - React Documentation
+- MongoDB Documentation
+- Express.js Documentation
 - MongoDB Documentation
 - Express.js Documentation
