@@ -1,0 +1,18 @@
+# Navigate to backend folder
+cd ../backend  # or wherever your backend is
+
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+EOF
