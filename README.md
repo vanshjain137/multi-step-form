@@ -156,9 +156,6 @@ To use MongoDB Atlas (cloud) instead of local MongoDB:
 2. Create a free cluster
 3. Get connection string
 4. Update `.env`:
-   ```env
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/multistepform
-   ```
 
 ## Troubleshooting
 
